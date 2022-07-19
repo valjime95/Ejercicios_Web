@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ejercicio Formularios 1</title>
+</head>
+<body>
+
+<form>
+	<fieldset class="Personal">
+		<legend>Información Personal</legend>
+		Nombre <input type="text" name="nombre", placeholder="Escribe tu nombre">
+		<br>
+		Apellidos <input type="text" name="apellidos", placeholder="Escribe tus apellidos">
+		<br>
+		E-mail <input type="email" name="correo" placeholder="Introduce tu correo">
+	</fieldset>
+	<fieldset class="edad">
+		<legend>Edad</legend>
+		<input type="radio" name="edad" value="10-15"> 10-15
+		<br>
+		<input type="checkbox" name="edad" value="16-20"> 16-20
+		<br>
+		Introduce tu edad exacta <input type="number" name="edad_exact" min="10" max="30">
+	</fieldset>
+	<fieldset class="adicional">
+		<legend>Información Adicional</legend>
+		Fecha de cumpleaños: <input type="date" name="cumpleaños">
+		<br>
+		Escoge tu color favorito <input type="color" name="colorfav" value="#ff0000">
+		<br>
+		Nivel de estudios: 
+		<select name="estudios">
+			<option value="kinder">Pre-escolar</option>
+			<option value="primaria">Primaria</option>
+			<option value="secundaria">Secundaria</option>
+			<option value="prepa">Preparatoria</option>		
+		</select>
+		</fieldset>
+		<fieldset name="otro">
+			<textarea rows='5' cols='53'> Agrega un comentario (sin placeholder)</textarea>
+			<textarea rows='5' cols='53' placeholder="Agrega un comentario (sin placeholder)"></textarea>
+		</fieldset>
+	<br>
+	<input type="submit" value="mandar">
+	<input type="reset" name="Reestablecer valores" >
+	<input type="button" onclick="alert('Hello World!')" value="Pruebame">
+</form>
+
+
+
+</body>
+</html>
