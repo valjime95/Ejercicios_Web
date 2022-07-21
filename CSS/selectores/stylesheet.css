@@ -1,0 +1,68 @@
+*{
+  font-family: Verdana;
+  border: 1px solid red;
+}
+
+.title{
+  color: #DACEF7;
+}
+
+.uppercase{
+  text-transform: uppercase;
+}
+
+#article-title{
+  font-family: cursive;
+}
+
+[href*='florence']{
+  color: red;
+}
+
+[href*='beijing']{
+  color: lightblue;
+}
+
+[href*='seoul']{
+  color: lightpink;
+}
+
+a:hover{
+  color: darkorange;
+}
+
+h5{
+  color: black;
+}
+
+.author-class{
+  color: pink;
+}
+
+#author-id{
+  color: cornflowerblue;
+}
+
+.description h5{
+  color: blueviolet;
+}
+
+li h4 {
+  color: gold;
+}
+
+li{
+  color: red;
+}
+
+p, h5, h2, .description{
+  background-color: gold;
+}
+
+
+p{
+  text-align: left;
+}
+
+
+
