@@ -1,5 +1,13 @@
-.img {
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&display=swap');
+
+*{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+
+img {
 height: 150px;
+opacity: 0.3;
 }
 
 .description {
@@ -10,11 +18,11 @@ font-size: 20px;
 font-weight: bold;
 }
 
-li .ingredients {
+.ingredients li {
 list-style: square;
 }
 
-.time,p {
+.time {
 color: gray;
 }
 
@@ -22,6 +30,6 @@ color: gray;
 color: SeaGreen;
 }
 
-li font-family_,h1,h2,p {
-font-family
+a:hover{
+	color: red;
 }
