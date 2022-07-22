@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@700&display=swap');
+
 *{
-  font-family: Verdana;
-  border: 1px solid red;
+  font-family: 'Edu VIC WA NT Beginner';
+  text-align: center;
+  /*border: 1px solid red;*/
 }
 
 .title{
@@ -13,6 +16,8 @@
 
 #article-title{
   font-family: cursive;
+    /*(agregado para la clase del viernes)  */
+  text-align: center;
 }
 
 [href*='florence']{
@@ -55,14 +60,19 @@ li{
   color: red;
 }
 
-p, h5, h2, .description{
-  background-color: gold;
-}
-
-
 p{
-  text-align: left;
+  text-align: justify;
 }
 
+/*agregado para la opacidad (clase del viernes)*/
+img{
+  opacity: 0.10;
+}
+
+.img-fondo{
+  background-image: url('./explorer.jpeg');
+  background-size: cover;
+  height: 700px;
+}
 
 
