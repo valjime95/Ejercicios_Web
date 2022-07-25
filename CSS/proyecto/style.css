@@ -5,6 +5,10 @@
 	margin-top: 20px;
 }
 
+.titulo{
+	text-align: center;
+}
+
 img {
 height: 150px;
 opacity: 0.3;

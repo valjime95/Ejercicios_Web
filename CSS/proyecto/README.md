@@ -1,6 +1,6 @@
 # Ejercicio CSS
 
-1. Cambiar el tamaño de la imagen a `15px`.
+1. Cambiar el tamaño de la imagen a `150px`.
 
 
 2. Cambiar el tamaño de la fuente a `20px` de la clase `.description`.
