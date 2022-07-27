@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  /*ESTAS DOS SOLO CON WRAP COLUMN --->> quitar divs cuando usemos justify-content*/ 
+/*  min-height: 100vh;
+  max-height: 100vh;*/
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  background-color: DodgerBlue;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+</style>
+</head>
+<body>
+<h1>Flexible Boxes</h1>
+
+<div class="flex-container">
+  <div style="order:70">1</div>
+  <div style="order:-1">2</div>
+  <div style="order:-1">3</div>
+  <div style="order:3">4</div>
+  <div style="order:2">5</div>
+  <div style="order:1; flex-grow: 2;">6</div> 
+</div>
+</body>
+</html>

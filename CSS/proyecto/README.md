@@ -12,7 +12,6 @@
 font-weight: bold;
 ```
 
-
 4. Cambiar los bullets de la lista de ingredientes (`.ingredients`) a cuadrados.
 
 ```CSS
