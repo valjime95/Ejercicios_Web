@@ -71,8 +71,11 @@ img{
 
 .img-fondo{
   background-image: url('./explorer.jpeg');
-  background-size: cover;
+  background-size: auto;
   height: 700px;
 }
 
+.img-fondo p{
+  font-size: 200px;
+}
 
